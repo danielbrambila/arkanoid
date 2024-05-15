@@ -1,0 +1,5 @@
+cd /nombre de la carpeta/ para moverte entre estas
+ls muestra los arcuivos de la carpeta
+sudo=super 
+rm sirve para eliminar archivos 
+rm -rf para borrar sin importar nd
