@@ -4,8 +4,8 @@ class Juego
 Class Jugador
 
 class Habilidad
-class Paleta
-class Pelota
+class Tabla
+class Bola
 
 class Bloque
 class BloqueNormal
@@ -16,8 +16,8 @@ class Escenario
 class PowerUp
 
 Juego "1" *-- "1" Jugador
-Jugador "1" o-- "*" Paleta
-Paleta "1" o-- "1" Pelota
+Jugador "1" o-- "*" Tabla
+Paleta "1" o-- "1" Bola
 
 Paleta *-- Habilidad
 Pelota -- Bloque : "Golpear"

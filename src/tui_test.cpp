@@ -35,9 +35,9 @@ int main(int argc, char const *argv[])
     while (true)
     {
         /* code */
-        int r = std::experimental::randint(0,255);
-        int g = std::experimental::randint(0,255);
-        int b = std::experimental::randint(0,255);
+        int r = std::experimental::randint(0,650);
+        int g = std::experimental::randint(0,650);
+        int b = std::experimental::randint(0,650);
 
         Element personaje = spinner(21,fotograma);
 
